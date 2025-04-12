@@ -9,6 +9,7 @@
   </head>
   <body>
     <div id="app">
+      <!-- Login Form Section -->
       <h1>Login</h1>
       <form id="loginForm">
         <label for="email">Email:</label>
@@ -17,8 +18,17 @@
         <input type="password" id="password" required />
         <button type="submit">Login</button>
       </form>
+
+      <!-- File Upload Section -->
+      <h2>Upload Medical Document</h2>
+      <form id="uploadForm">
+        <label for="fileInput">Choose a file:</label>
+        <input type="file" id="fileInput" accept="application/pdf, image/*" />
+        <button type="submit">Upload File</button>
+      </form>
     </div>
 
     <script src="app.js"></script>
   </body>
 </html>
+
